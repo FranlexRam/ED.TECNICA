@@ -11,17 +11,19 @@ var resultado = function (n1,n2) {
             console.log('Ingresar n1 y n2');
             In1=In1-1;
             In2=In2-1;
-            console.log(In1);
+            console.log('Te quedan ' + In1 + ' intentos de n1');
+            console.log('Te quedan ' + In2 + ' intentos de n2');
         } else{
             console.log('Ingresar solo n2');
             In2=In2-1;
-            console.log(In2);
+            console.log('Te quedan ' + In2 + ' intentos de n2');
         }
-    } else if (n1 != n1c && n2 != n2c){
-        console.log('Perdiste');
+    } else if (n1!=n1c && n2!=n2c){
+        console.log('Perdiste!');
+        console.log('Te quedan ' + In1 + ' intentos de n1');
+        console.log('Te quedan ' + In2 + ' intentos de n2');
     } else {
         console.log('Ganaste!');
-        console.log('aquiii');
     }
 }
 

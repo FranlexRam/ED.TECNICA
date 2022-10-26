@@ -9,13 +9,21 @@ var resultado = function (n1,n2) {
     if (In1>=0 && In2>0 && n1!=n1c && n2!=n2c){
         if (In1>0 && In2>0){
             console.log('Ingresar n1 y n2');
-            In1=In1-1;
-            In2=In2-1;
-            console.log('Te quedan ' + In1 + ' intentos de n1');
-            console.log('Te quedan ' + In2 + ' intentos de n2');
+            while (In1>0){
+                console.log('Te quedan ' + In1 + ' intentos de n1');
+                In1--  
+            }
+            while (In2>0){
+                console.log('Te quedan ' + In2 + ' intentos de n2');
+                In2--  
+            }
+          
         } else{
             console.log('Ingresar solo n2');
-            In2=In2-1;
+            while (In2>0){
+                console.log('Te quedan ' + In2 + ' intentos de n2');
+                In2--  
+            }
             console.log('Te quedan ' + In2 + ' intentos de n2');
         }
     } else if (n1!=n1c && n2!=n2c){

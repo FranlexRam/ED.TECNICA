@@ -2,7 +2,10 @@
 
 var TD= "Tarjeta de debito";
 var TC="Tarjeta de credito";
-var metPos= "Metodo positivo"
+var metPosTD= "Metodo positivo";
+var metNegTD= "Metodo negativo";
+var metPosTC= "Metodo positivo";
+
 
 
 var metodo = function (x) {

@@ -2,19 +2,19 @@
 
 var TD= "Tarjeta de debito";
 var TC="Tarjeta de credito";
-var metPosTD= "Metodo positivo";
-var metNegTD= "Metodo negativo";
-var metPosTC= "Metodo positivo";
+var metPos= "Metodo positivo";
+var metNeg= "Metodo negativo";
 
 
 
-var metodo = function (x) {
+
+var metodo = function (x,y) {
     if (x==TD){
-        console.log("Ingresar datos de " + TD);
+        return("Ingresar datos de " + TD);
     } else if (x==TC){
-        console.log("Ingresar datos de " + TC);
+        return("Ingresar datos de " + TC);
     } else {
-        console.log("Metodo no encontrado");
+        return("Metodo no encontrado");
     }
     }
 metodo (TD);

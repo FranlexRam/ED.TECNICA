@@ -1,0 +1,31 @@
+#title {
+    color: red;
+}
+
+.subtitle {
+    color: blue;
+}
+
+#form {
+    color: red;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.5rem;
+    justify-content: left;
+    align-items: stretch;
+
+}
+
+#form-btn {
+    padding: 0.25rem;
+    border-radius: 0.5rem;
+    background-color: rgb(30, 137, 137);
+    transition: all 0.5s easy ease-in-out;
+    width: 30%;
+}
+
+#form-btn:hover {
+    background-color: rgb(191, 234, 219);
+    width: 38%;
+    color: blue;
+
+}

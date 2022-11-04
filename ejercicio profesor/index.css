@@ -116,7 +116,7 @@ body {
     #main {
         flex-direction: row;
         width: 50%;
-        margin: 0 auto;
+        margin: 0 auto; /* por que se coloca "auto"? */
     }
 
     #main-title {

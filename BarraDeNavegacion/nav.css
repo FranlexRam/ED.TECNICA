@@ -81,7 +81,7 @@ body{
 
 #button {
     transition: all 0.5s linear;
-    background-color: white;
+    background-color: rgb(173, 235, 173);
     color: black;
     border: 2px solid #4CAF50;
     padding: 1rem;
@@ -126,6 +126,12 @@ a {
     #title {
         font-size: 2.5rem;
     }
+    #context {
+        font-size: 0.8rem;
+    }
+    #button {
+        font-size: 1rem;
+    }
 }
 
 @media (min-width: 300px) {
@@ -134,6 +140,12 @@ a {
     }
     #title {
         font-size: 3rem;
+    }
+    #context {
+        font-size: 1.3rem;
+    }
+    #button {
+        font-size: 1.2rem;
     }
 }
 
@@ -154,22 +166,30 @@ a {
         display: none;
     }
     #context {
-        font-size: 1.3rem;
+        font-size: 1.8rem;
     }
     #title {
         font-size: 3.5rem;
     }
+    #button {
+        font-size: 1.4rem;
+    }
 
 }
 
-/* Desktop devices */
+/* ipad devices */
 @media (min-width: 768px) {
     #container {
         flex-direction: row;
-        width: 50%;
         align-items: center;
     }
-    #button {
+    #main-container {
         flex-direction: row;
+    }
+    #button {
+        font-size: 1.6rem;
+    }
+    #context {
+        height: 100%;
     }
 }

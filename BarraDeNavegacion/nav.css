@@ -12,9 +12,9 @@ body, h1, p {
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    height: 100vh;
     padding: 0 1rem;
     padding-top: 4rem;
+    height: 100vh;
 }
 
 
@@ -44,10 +44,10 @@ body{
 }
 
 #navbar-links {
-    display: none;
     color: white;
     display: flex;
     gap: 0.7rem;
+    font-size: 1rem;
 }
 
 .nav-link {
@@ -62,12 +62,12 @@ body{
 }
 
 #container {
-    height: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 2rem;
+    height: 100%;
 }
 
 #main-container {
@@ -86,10 +86,90 @@ body{
     border: 2px solid #4CAF50;
     padding: 1rem;
     border-radius: 20px;
+    font-size: 1.2rem;
 }
   
   
 #button:hover {
     background-color: #4CAF50;
     color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#nav-icon {
+    width: 3rem;
+    height: 3rem;
+    transition: all 0.5s linear;
+    border-radius: 10px;
+    padding: 0.4rem;
+}
+
+#nav-icon:hover {
+    background-color: gray;
+}
+
+
+/* Mobile devices */
+@media (min-width: 150px) {
+    .nav-link {
+        display: none;
+    }
+    #nav-icon {
+        display: block;
+    }
+    #navbar-tittle {
+        font-size: 1.5rem;
+    }
+    #title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 300px) {
+    #navbar-tittle {
+        font-size: 2.1rem;
+    }
+    #title {
+        font-size: 3rem;
+    }
+}
+
+
+
+/* Tablet devices */
+@media (min-width: 640px) {
+    #navbar-tittle {
+        display: block;
+    }
+
+    .nav-link {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    #nav-icon {
+        display: none;
+    }
+    #context {
+        font-size: 1.3rem;
+    }
+    #title {
+        font-size: 3.5rem;
+    }
+
+}
+
+/* Desktop devices */
+@media (min-width: 768px) {
+    #container {
+        flex-direction: row;
+        width: 50%;
+        align-items: center;
+    }
+    #button {
+        flex-direction: row;
+    }
 }

@@ -77,7 +77,6 @@ body{
 }
 
 .todo-list {
-    min-width: 30%;
     list-style: none;
     padding-left: 0;
 }
@@ -172,3 +171,209 @@ body{
     background-color: rgb(221, 11, 7);
 }
 
+@media (min-width:150px) {
+  
+    #app-title {
+        font-size: 1.8rem;
+    }
+
+
+    #todo-input {
+        width: 11rem;
+        font-size: 0.8rem;
+    }
+    
+    #add-task {
+    font-size: 1.5rem;
+    } 
+
+
+    .todo {
+        font-size: 0.6rem;
+        width: 14rem;
+    }
+
+    .del-btn {
+        font-size: 0.5rem;
+    }
+
+    .chk-btn {
+        font-size: 0.5rem;
+    }
+
+    .task-status {
+        font-size: 0.34rem;
+    }
+}
+
+
+
+@media (min-width:320px) {
+    #app-title {
+        font-size: 2.1rem;
+    }
+
+    #todo-input {
+        width: 14rem;
+        font-size: 1rem;
+    }
+    
+    #add-task {
+        font-size: 1.7rem;
+    } 
+
+    .todo {
+            font-size: 1rem;
+            width: 17rem;
+    }
+
+    .del-btn {
+            font-size: 0.7rem;
+    }
+
+    .chk-btn {
+        font-size: 0.7rem;
+    }
+
+    .task-status {
+        font-size: 0.5rem;
+    }
+}
+
+
+
+
+@media (min-width:390px) {
+    #app-title {
+        font-size: 2.4rem;
+    }
+
+    #todo-input {
+        width: 15rem;
+        font-size: 1.4rem;
+    }
+    
+    #add-task {
+        font-size: 1.9rem;
+    } 
+
+    .todo {
+            font-size: 1.2rem;
+            width: 18.5rem;
+    }
+
+    .del-btn {
+            font-size: 0.8rem;
+    }
+
+    .chk-btn {
+        font-size: 0.8rem;
+    }
+
+    .task-status {
+        font-size: 0.65rem;
+    }
+}
+
+
+
+@media (min-width:430px) {
+    #app-title {
+        font-size: 2.7rem;
+    }
+
+    #todo-input {
+        width: 18rem;
+        font-size: 1.3rem;
+    }
+    
+    #add-task {
+        font-size: 2rem;
+    } 
+
+    .todo {
+            font-size: 1.5rem;
+            width: 21.5rem;
+    }
+
+    .del-btn {
+            font-size: 0.9rem;
+    }
+
+    .chk-btn {
+        font-size: 0.9rem;
+    }
+
+    .task-status {
+        font-size: 0.8rem;
+    }
+}
+
+
+
+@media (min-width:640px) {
+    #app-title {
+        font-size: 3rem;
+    }
+
+    #todo-input {
+        width: 22rem;
+        font-size: 1.3rem;
+    }
+    
+    #add-task {
+        font-size: 2rem;
+    } 
+
+    .todo {
+            font-size: 1.7rem;
+            width: 25.5rem;
+    }
+
+    .del-btn {
+            font-size: 1rem;
+    }
+
+    .chk-btn {
+        font-size: 1rem;
+    }
+
+    .task-status {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+@media (min-width:768px) {
+    #app-title {
+        font-size: 3.5rem;
+    }
+
+    #todo-input {
+        width: 25rem;
+        font-size: 1.3rem;
+    }
+    
+    #add-task {
+        font-size: 2rem;
+    } 
+
+    .todo {
+            font-size: 2rem;
+            width: 28.24rem;
+    }
+
+    .del-btn {
+            font-size: 1rem;
+    }
+
+    .chk-btn {
+        font-size: 1rem;
+    }
+
+    .task-status {
+        font-size: 1rem;
+    }
+}

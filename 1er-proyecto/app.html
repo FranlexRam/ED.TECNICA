@@ -18,7 +18,7 @@
         <form id="form">
             <input id="todo-input" type="text" placeholder="Create new task">
 
-            <button id="add-task">
+            <button id="add-task" onclick="alert('Aqui Anadir tarea!')">
                 +
             </button>
 
@@ -29,19 +29,19 @@
 
 
                 <div class="todo">
-                    <li class="task">Task #1</li>
-                    <a class="chk-btn">Checked</a>
-                    <a class="del-btn">Delete</a>
+                    <li class="task-completed">Task #1</li>
+                    <a class="chk-btn" onclick="alert('Undo task')">Undo</a>
+                    <a class="del-btn" onclick="alert('Delete task')">Delete</a>
                 </div>
                 <div class="todo">
                     <li class="task">Task #2</li>
-                    <a class="chk-btn">Checked</a>
-                    <a class="del-btn">Delete</a>
+                    <a class="chk-btn" onclick="alert('Task done')">Done</a>
+                    <a class="del-btn" onclick="alert('Delete task')">Delete</a>
                 </div>
                 <div class="todo">
                     <li class="task">Task #3</li>
-                    <a class="chk-btn">Checked</a>
-                    <a class="del-btn">Delete</a>
+                    <a class="chk-btn" onclick="alert('Task done')">Done</a>
+                    <a class="del-btn" onclick="alert('Delete task')">Delete</a>
                 </div>
 
 
@@ -53,8 +53,8 @@
         <div class="task-status">
 
             <div class="total-task">Total: 3</div>
-            <div class="completed-task">Completed: 0</div>
-            <div class="incompleted-task">Incompleted: 3</div>
+            <div class="completed-task">Completed: 1</div>
+            <div class="incompleted-task">Incompleted: 2</div>
 
 
         </div>

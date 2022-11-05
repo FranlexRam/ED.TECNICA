@@ -25,7 +25,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 75vh;
     width: 75vh;
     padding: 0.4rem;
     border: 0.1rem solid;
@@ -42,7 +41,8 @@ body{
 
 #form {
     display: flex;
-    gap: 0.2rem;
+    gap: 8px;
+    align-items: center;
 }
 
 #todo-input {
@@ -54,18 +54,18 @@ body{
 }
 
 #add-task {
-    padding: 1rem;
+    /* padding: 1rem; */
     border-radius: 10px;
     cursor: pointer;
     transition: all 1s ease;
     background-color: rgb(99, 251, 75);
-    font-size: 2rem;
+    /* font-size: 2rem; */
 }
 
 #add-task:hover {
     background-color: rgb(41, 108, 41);
     color: white;
-    font-weight: 800;
+    /* font-weight: 800; */
 }
 
 
@@ -87,19 +87,28 @@ body{
     color: black;
     font-size: 2rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 28.24rem;
     gap: 0.2rem;
     border: 0.08rem solid rgb(4, 86, 21);
     border-radius: 5px;
+    align-items: center;
+    height: 90px;
+    margin: 9px 0px;
 }
 
+.task-completed {
+    text-decoration: line-through;
+    padding: 1rem;
+}
+
+
 .todo li {
-    flex: 1;
+    flex: .9;
 }
 
 .del-btn {
-    padding: 1rem;
+    padding: 8px 20px;
     background-color: rgb(235, 37, 37);
     border-radius: 10px;
     font-size: 1rem;
@@ -113,11 +122,11 @@ body{
 .del-btn:hover {
     background-color: rgb(156, 14, 14);
     color: white;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .chk-btn {
-    padding: 1rem;
+    padding: 8px 20px;
     background-color: rgba(70, 235, 37, 0.834);
     border-radius: 10px;
     font-size: 1rem;
@@ -131,7 +140,7 @@ body{
 .chk-btn:hover {
     background-color: rgb(6, 39, 6);
     color: white;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 .task {
@@ -172,6 +181,9 @@ body{
 }
 
 @media (min-width:150px) {
+    #container {
+        width:none;
+       }
   
     #app-title {
         font-size: 1.8rem;
@@ -209,6 +221,9 @@ body{
 
 
 @media (min-width:320px) {
+    #container {
+        width:none;
+       }
     #app-title {
         font-size: 2.1rem;
     }
@@ -244,6 +259,9 @@ body{
 
 
 @media (min-width:390px) {
+    #container {
+        width:none;
+       }
     #app-title {
         font-size: 2.4rem;
     }
@@ -278,6 +296,9 @@ body{
 
 
 @media (min-width:430px) {
+    #container {
+        width:none;
+       }
     #app-title {
         font-size: 2.7rem;
     }
@@ -312,6 +333,10 @@ body{
 
 
 @media (min-width:640px) {
+    #container {
+        width:75vh;
+       }
+
     #app-title {
         font-size: 3rem;
     }

@@ -15,6 +15,7 @@ body{
     padding: 0 1rem;
     padding-top: 4rem;
     height: 100vh;
+    background-image: conic-gradient(at 50% 0%, rgb(255, 255, 0), black);
 }
 
 
@@ -22,7 +23,7 @@ body{
     right: 0;
     left: 0;
     top: 0;
-    background-color: red;
+    background-color: rgb(87, 8, 8);
     position: fixed;
     height: 4rem;  
     padding: 1rem; 
@@ -35,7 +36,7 @@ body{
 
 #title{
     font-size: 3rem;
-    text-shadow: 5px 5px 7px;
+    text-shadow: 3px 2px 9px;
 }
 
 #navbar-tittle {

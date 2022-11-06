@@ -36,7 +36,7 @@ body{
     padding: 2rem;
     font-size: 3.5rem;
     font-weight: 780;
-    text-shadow: 5px 5px 10px;
+    text-shadow: 3px 2px 9px;
 }
 
 #form {
@@ -58,12 +58,12 @@ body{
     border-radius: 10px;
     cursor: pointer;
     transition: all 1s ease;
-    background-color: rgb(99, 251, 75);
+    background-color: rgb(103, 169, 244);
     /* font-size: 2rem; */
 }
 
 #add-task:hover {
-    background-color: rgb(41, 108, 41);
+    background-color: rgb(17, 14, 92);
     color: white;
     /* font-weight: 800; */
 }
@@ -116,13 +116,31 @@ body{
     display: flex;
     align-items: center;
     transition: all 1s ease;
-    box-shadow: 1px 5px 18px 0.2px;
+    box-shadow: 1px -2px 5px -0.8px;
 }
 
 .del-btn:hover {
     background-color: rgb(156, 14, 14);
     color: white;
     /* font-weight: 700; */
+}
+
+.chk-btn-undo {
+    padding: 8px 20px;
+    background-color: rgba(6, 39, 6);
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: all 1s ease;
+    box-shadow: 1px -2px 5px -0.8px;
+    color: white;
+}
+
+.chk-btn-undo:hover {
+    background-color: rgb(70, 235, 37, 0.834);
+    color: black;
 }
 
 .chk-btn {
@@ -134,7 +152,7 @@ body{
     display: flex;
     align-items: center;
     transition: all 1s ease;
-    box-shadow: 1px 5px 18px 0.2px;
+    box-shadow: 1px -2px 5px -0.8px;
 }
 
 .chk-btn:hover {

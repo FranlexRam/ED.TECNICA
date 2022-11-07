@@ -70,6 +70,42 @@ body{
 }
 
 
+
+
+/* Hover con texto desde aqui*/
+.hovertext {
+    position: relative;
+  }
+
+.hovertext:before {
+    content: attr(data-hover);
+    visibility: hidden;
+    opacity: 0;
+    width: max-content;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px 5px;
+    transition: opacity 1s ease-in-out;
+  
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 110%;
+  }
+
+  .hovertext:hover:before {
+    opacity: 1;
+    visibility: visible;
+  }
+  /* Hover cpn texto hasta aqui*/
+
+
+
+
+
+
 .todo-container {
     display: flex;
     justify-content: center;
@@ -213,6 +249,9 @@ body{
         width: 11rem;
         font-size: 0.8rem;
     }
+    #form .hovertext {
+        font-size: 0.6rem;
+    }
     
     #add-task {
     font-size: 1.5rem;
@@ -260,6 +299,10 @@ body{
             font-size: 1rem;
             width: 16.3rem;
     }
+    .todo .hovertext{
+        font-size: 0.6rem;
+    }
+
 
 
     .del-btn {
@@ -298,6 +341,9 @@ body{
     .todo {
             font-size: 1.2rem;
             width: 17.5rem;
+    }
+    .todo .hovertext{
+        font-size: 0.6rem;
     }
 
     .del-btn {

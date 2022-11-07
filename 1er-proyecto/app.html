@@ -21,9 +21,9 @@
         <form id="form">
             <input id="todo-input" type="text" placeholder="Create new task">
 
-            <button id="add-task" onclick="alert('New task added!')">
+            <span class="hovertext" data-hover="Add new task"><button id="add-task" onclick="alert('New task added!')">
                 +
-            </button>
+            </button></span>
 
         </form>
 
@@ -33,30 +33,30 @@
 
                 <div class="todo">
                     <li class="task-completed">Task #1</li>
-                    <a class="chk-btn-undo" onclick="alert('Task undone')"><span class="material-symbols-outlined">
+                    <span class="hovertext" data-hover="Undo task"><a class="chk-btn-undo" onclick="alert('Task undone')"><span class="material-symbols-outlined">
                             remove_done
-                        </span></a><!-- undo task -->
-                    <a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
+                        </span></a></span><!-- undo task -->
+                        <span class="hovertext" data-hover="Delete task"><a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
                             delete
-                        </span></a>
+                        </span></a></span><!-- delete task -->
                 </div>
                 <div class="todo">
                     <li class="task">Task #2</li>
-                    <a class="chk-btn" onclick="alert('Task done')"><span class="material-symbols-outlined">
+                    <span class="hovertext" data-hover="Mark as done"><a class="chk-btn" onclick="alert('Task done')"><span class="material-symbols-outlined">
                             done_all
-                        </span></a>
-                    <a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
+                        </span></a></span><!-- task done -->
+                        <span class="hovertext" data-hover="Delete task"><a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
                             delete
-                        </span></a><!-- done task -->
+                        </span></a></span><!-- delete task -->
                 </div>
                 <div class="todo">
                     <li class="task">Task #3</li>
-                    <a class="chk-btn" onclick="alert('Task done')"><span class="material-symbols-outlined">
+                    <span class="hovertext" data-hover="Mark as done"><a class="chk-btn" onclick="alert('Task done')"><span class="material-symbols-outlined">
                             done_all
-                        </span></a><!-- done task -->
-                    <a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
+                        </span></a></span><!-- task done-->
+                        <span class="hovertext" data-hover="Delete task"><a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
                             delete
-                        </span></a>
+                        </span></a></span><!-- delete task -->
                 </div>
 
 

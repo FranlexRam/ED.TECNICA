@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To do app.</title>
     <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 
@@ -19,7 +20,9 @@
             <input id="todo-input" type="text" placeholder="Create new task">
 
             <button id="add-task" onclick="alert('Add a new task!')">
-                +
+                <span class="material-symbols-outlined">
+                    add
+                </span>
             </button>
 
         </form>
@@ -30,18 +33,30 @@
 
                 <div class="todo">
                     <li class="task-completed">Task #1</li>
-                    <a class="chk-btn-undo" onclick="alert('Task undone')">Undo</a>
-                    <a class="del-btn" onclick="alert('Delete task')">Delete</a>
+                    <a class="chk-btn-undo" onclick="alert('Task undone')"><span class="material-symbols-outlined">
+                        remove_done
+                        </span></a><!-- undo task -->
+                    <a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
+                        delete
+                        </span></a>
                 </div>
                 <div class="todo">
                     <li class="task">Task #2</li>
-                    <a class="chk-btn" onclick="alert('Task done')">Done</a>
-                    <a class="del-btn" onclick="alert('Delete task')">Delete</a>
+                    <a class="chk-btn" onclick="alert('Task done')"><span class="material-symbols-outlined">
+                        done_all
+                        </span></a>
+                    <a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
+                        delete
+                        </span></a><!-- done task -->
                 </div>
                 <div class="todo">
                     <li class="task">Task #3</li>
-                    <a class="chk-btn" onclick="alert('Task done')">Done</a>
-                    <a class="del-btn" onclick="alert('Delete task')">Delete</a>
+                    <a class="chk-btn" onclick="alert('Task done')"><span class="material-symbols-outlined">
+                        done_all
+                        </span></a><!-- done task -->
+                    <a class="del-btn" onclick="alert('Delete task')"><span class="material-symbols-outlined">
+                        delete
+                        </span></a>
                 </div>
 
 

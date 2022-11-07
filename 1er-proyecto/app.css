@@ -9,12 +9,12 @@
 
 body, h1, p, ul {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poor Story', cursive;
 }
 body{
     padding: 1rem;
     height: 100vh;
-    background-color: rgb(81, 140, 81);
+    background-image: conic-gradient(at 100% 0%, rgba(54, 236, 60, 0.386), black);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,7 +28,7 @@ body{
     width: 75vh;
     padding: 0.4rem;
     border: 0.1rem solid;
-    background-color: aquamarine;
+    background-image: conic-gradient(at 2% -2%, rgb(159 222 212 / 71%), black);
     border-radius: 10px;
 }
 
@@ -51,6 +51,7 @@ body{
     width: 25rem;
     font-size: 1.3rem;
     border: 0.008rem solid black;
+    font-family: 'Poor Story', cursive;
 }
 
 #add-task {
@@ -83,7 +84,7 @@ body{
 
 .todo {
     padding: 0.3rem;
-    background-color: white;
+    background-color: #ffd9d9;
     color: black;
     font-size: 2rem;
     display: flex;
@@ -220,7 +221,7 @@ body{
 
     .todo {
         font-size: 0.6rem;
-        width: 14rem;
+        width: 13rem;
     }
 
     .del-btn {
@@ -257,8 +258,9 @@ body{
 
     .todo {
             font-size: 1rem;
-            width: 17rem;
+            width: 16.3rem;
     }
+
 
     .del-btn {
             font-size: 0.7rem;
@@ -295,7 +297,7 @@ body{
 
     .todo {
             font-size: 1.2rem;
-            width: 18.5rem;
+            width: 17.5rem;
     }
 
     .del-btn {
@@ -332,7 +334,7 @@ body{
 
     .todo {
             font-size: 1.5rem;
-            width: 21.5rem;
+            width: 20.5rem;
     }
 
     .del-btn {
@@ -370,7 +372,7 @@ body{
 
     .todo {
             font-size: 1.7rem;
-            width: 25.5rem;
+            width: 24.5rem;
     }
 
     .del-btn {
@@ -405,7 +407,7 @@ body{
 
     .todo {
             font-size: 2rem;
-            width: 28.24rem;
+            width: 27.24rem;
     }
 
     .del-btn {

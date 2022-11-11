@@ -42,3 +42,53 @@ nolink.setAttribute('id','sinlink');
 
 //Remover un atributo
 titulo.removeAttribute('id');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//Agregar un elemento al documento
+
+const h2 = document.createElement('h2');
+console.log(h2);
+h2.innerText='Otro titulo';
+
+const fondo=document.querySelector('fondo');
+body.appendChild(h2);
+
+
+//solo learn:
+
+var p =document.createElement('p');
+// p.innerText='Some new text.';
+var node=document.createTextNode('Create some new text');
+p.appendChild(node);
+
+var div=document.getElementById('fondo');
+
+div.appendChild(p);
+
+
+
+//Agregar un elemento a la lista:
+
+
+const li = document.querySelector('li');
+li.innerText='Nuevo elemento a la lista';
+li.classList.add('lista-elemento');
+
+const lista=document.querySelector('lista');
+
+lista.appendChild(li);
